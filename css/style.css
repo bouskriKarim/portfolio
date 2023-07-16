@@ -1,49 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: #FEFAF6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .head-nav{
+    position: fixed;
     display: flex;
     flex-direction: row;
-    width: 60%;
-    height: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: #FEFAF6;
+    border-bottom: #e0c9b1 double 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.head-nav > span{
+.head-nav > a{
     margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    text-decoration: none;
+    color: inherit;
     cursor: pointer;
     transition: ease 0.5s;
+    
 
 }
 
-.head-nav > span:hover{
-    font-size: 30px;
+.head-nav > a:hover{
+    font-size: 25px;
 }
 
 .home-content{
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.home-content > div > p{
+    margin-left: 20px;
+}
+
+.home-content > div > p > span{
+    color: #75aeb9;
+}
+
+.home-content > div > h1 > span{
+    
+    color: #75aeb9;
+
+}
+
 .home-content > *{
     margin: auto;
 }
 
+.logo{
+    width: 110px;
+    margin-left: 1%;
+}
 
+.logo > img{
+    width: 100%;
+}
 #home-img{
     width: 80%;    
     border-radius: 15px;
@@ -57,8 +90,13 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: ease 0.5s;
 }
 
+.square:hover{
+    transform: rotate(90deg);
+}
 
 .left-buttom{
     margin-top: auto;
@@ -83,4 +121,29 @@ body{
 .left-top{
     background: rgb(255,234,238);
     background: linear-gradient(189deg, rgba(255,234,238,1) 0%, rgba(237,220,246,1) 100%);
+}
+
+
+.icons > a >*{
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: ease 0.5s;
+}
+
+.icons > a >*:hover{
+    transform: rotate(35deg);
+}
+
+/*=======================================================================================================================*/
+
+.about-me{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.about-me-text {
+    margin: auto;
 }
