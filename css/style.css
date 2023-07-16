@@ -34,12 +34,13 @@ body{
     color: inherit;
     cursor: pointer;
     transition: ease 0.5s;
-    
+    border-bottom: #FEFAF6 solid 2px;
 
 }
 
 .head-nav > a:hover{
-    font-size: 25px;
+    color: #75aeb9;
+    border-bottom: #75aeb9 solid 2px;
 }
 
 .home-content{
@@ -129,6 +130,8 @@ body{
     margin-top: 40px;
     margin-left: 20px;
     transition: ease 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
 }
 
 .icons > a >*:hover{
@@ -142,8 +145,25 @@ body{
     display: flex;
     flex-direction: row;
     margin-left: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about-me-text {
     margin: auto;
+}
+
+.about-me-text > div > p{
+    margin-left: 20px;
+}
+
+.about-me-text > div > p > span {
+    color: #75aeb9;
+}
+
+.my-img > .img > img{
+    width: 70%;    
+    border-radius: 15px;
+    margin-left: 75px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
