@@ -67,7 +67,7 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #b6d5e1;
+    background-color: #e2eff1;
     height: auto;
     z-index: 999;
     align-items: center;
@@ -89,7 +89,7 @@ body{
 }
 
 .mobile-nav > img:hover{
-    background-color: #b6d5e1;
+    background-color: #e2eff1;
     border-top: #75aeb9 solid 1px;
     margin-top: -40px;
 }
