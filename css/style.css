@@ -128,7 +128,6 @@ body{
     background: linear-gradient(189deg, rgba(255,234,238,1) 0%, rgba(237,220,246,1) 100%);
 }
 
-
 .icons > a >*{
     width: 70px;
     margin-top: 40px;
@@ -150,6 +149,7 @@ body{
     flex-direction: row;
     margin-left: 20px;
     font-size: 20px;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -164,6 +164,7 @@ body{
 .about-me-text > div > p > span {
     color: #75aeb9;
 }
+
 
 .my-img > .img > img{
     width: 70%;    
