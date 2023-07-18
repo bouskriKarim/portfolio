@@ -1,20 +1,16 @@
-@media (max-width: 600px) {
-    .home .about-me{
-        margin-left: 15px;
+@media (max-width: 1000px) {
+    .home-content > div:first-child{
+        width: 90%;
     }
     .home-content > div:nth-child(2) {
       display: none;
     }
-    .my-img > .img > img{
-        width: 50%;
+    .my-img > .img {
+        width: 100%;
     } 
-    .about-me{
-        margin-top: 0px;
-        display: flex;
-        flex-direction: column;
-    }
+    
     .head-nav {
-        height: fit-content;
+        height: auto;
     }
 
     .head-nav > div:nth-child(2){
@@ -22,18 +18,25 @@
     }
 
     .logo{
-        width: 200px;
+        width: 120px;
         margin-left: 5px;
     }
 
     .home-content{
-        margin-top: 0px;
-        margin-left: 1px;
+        margin-top: 30px;
+        margin-left: 5px;
     }
 
     /*====================================*/
     .about-me{
-        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-img ,.about-me-text{
+        width: 90%;
+        margin: 10px auto;
     }
     /*==========================================*/
   }
