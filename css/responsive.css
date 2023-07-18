@@ -24,11 +24,10 @@
     }
 
     .home-content{
-        height: 90vh;
+        display: block;
         padding-top: 80px;
         margin-left: 5px;
     }
-
     /*====================================*/
     .about-me{
         margin-top: 0px;

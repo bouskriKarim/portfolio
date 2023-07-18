@@ -1,3 +1,16 @@
+@font-face {
+    font-family: normalFont;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+*{
+    font-family: normalFont;
+}
+
+p{
+    line-height: 1.5em;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -6,7 +19,6 @@ body{
     margin: 0;
     overflow-x: hidden;
     background-color: #FEFAF6;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main{
@@ -21,7 +33,7 @@ body{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: #FEFAF6;
     border-bottom: #e0c9b1 double 1px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -56,27 +68,31 @@ body{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #FEFAF6;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #b7ebff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     height: auto;
     z-index: 999;
     align-items: center;
     justify-content: space-around;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px;
 }
 
 .mobile-nav > img
 {
-    width: 15%;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
 }
 
 .mobile-nav > img:hover{
-    margin-top: -10px;
+    background-color: #b7ebff;
+    margin-top: -30px;
 }
 /*==================================================================*/
 
 
 .home-content{
-    align-items: center;
     display: flex;
     flex-direction: row;
     font-size: 20px;
@@ -108,12 +124,12 @@ body{
 }
 
 .logo{
-    width: 110px;
-    margin-left: 1%;
+    height: 90%;
+    margin-left: 5px;
 }
 
 .logo > img{
-    width: 100%;
+    height: 100%;
 }
 #home-img{
     width: 80%;    
@@ -186,7 +202,6 @@ body{
     margin-right: auto;
     align-items: center;
     justify-content: space-around;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .about-me-text {
@@ -222,7 +237,6 @@ body{
     flex-wrap: wrap;
     margin-top: 50px;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .service > div{
