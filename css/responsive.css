@@ -10,20 +10,21 @@
     } 
     
     .head-nav {
-        height: auto;
+        height: 70px;
     }
 
     .head-nav > div:nth-child(2){
         display: none;
     }
 
-    .logo{
-        width: 120px;
+    .head-nav > div:first-child{
+
+        height: 90%;
         margin-left: 5px;
     }
 
     .home-content{
-        margin-top: 30px;
+        padding-top: 80px;
         margin-left: 5px;
     }
 
