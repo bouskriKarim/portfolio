@@ -77,7 +77,7 @@ body{
     border-top: #75aeb9 solid 1px;
 }
 
-.mobile-nav > img
+.mobile-nav > a > img
 {
     padding: 10px;
     border-top-left-radius: 50%;
@@ -88,7 +88,7 @@ body{
     transition:  0.5s;
 }
 
-.mobile-nav > img:hover{
+.mobile-nav > a > img:hover{
     background-color: #e2eff1;
     border-top: #75aeb9 solid 1px;
     margin-top: -40px;
@@ -186,8 +186,6 @@ body{
     margin-top: 40px;
     margin-left: 20px;
     transition: ease 0.5s;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 50px;
 }
 
 .icons > a >*:hover{
