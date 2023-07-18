@@ -47,6 +47,33 @@ body{
     border-bottom: #75aeb9 solid 2px;
 }
 
+/*==================================================================*/
+
+.mobile-nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 85%;
+    background-color: #FEFAF6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: fit-content;
+    z-index: 999;
+}
+
+.mobile-nav > img
+{
+    
+    margin: auto;
+    width: 10%;
+    margin-top: 5px;
+}
+
+.mobile-nav > img:hover{
+    margin-bottom: 10px;
+}
+/*==================================================================*/
+
 .home-content{
     display: flex;
     flex-direction: row;
