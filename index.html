@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel = "icon" href = "icons/logo - icon.png" type = "image/x-icon">
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div id="main" class="main">
@@ -17,7 +18,7 @@
             <div class="menu">
                 <a href="#main">Home</a>
                 <a href="#about-me">About</a>
-                <a href="#">Service</a>
+                <a href="#service">Service</a>
                 <a href="#">Work</a>
                 <a href="#">Contact</a>
             </div>
@@ -25,7 +26,7 @@
         <div class="mobile-nav">
             <a href="#main"><img src="icons/home.png"></a>
             <a href="#about-me"><img src="icons/about.png"></a>
-            <a><img src="icons/service.png"></a>
+            <a href="#service"><img src="icons/service.png"></a>
             <a><img src="icons/work.png"></a>
             <a><img src="icons/contact.png"></a>
         </div>
@@ -77,26 +78,41 @@
                 </div>
             </div>
         </div>
-        <div class="service">
-            <div id="web">
-                <span>Web developoment</span>
+        <div id="service" class="service">
+            <div>
+                <div onmouseenter="showElement('web')" onmouseleave="hideElement('web')">
+                    <img src="icons/web.png">
+                </div>
+                <span>Web Developpment</span>
+                <p id="web"> I have acquired extensive knowledge and expertise in building interactive and user-friendly websites. From front-end technologies such as HTML, CSS, and JavaScript to back-end frameworks like Node.js , I am proficient in utilizing a wide range of tools and technologies to create dynamic web applications.</p>
+            </div>
+            <div>
+                <div>
+                    <img src="icons/phone.png">
+                </div>
+                <span>Mobile Developpment</span>
                 <p> I have acquired extensive knowledge and expertise in building interactive and user-friendly websites. From front-end technologies such as HTML, CSS, and JavaScript to back-end frameworks like Node.js , I am proficient in utilizing a wide range of tools and technologies to create dynamic web applications.</p>
             </div>
-            <div id="mobile">
-                <span></span>
-                <p></p>
+            <div >
+                <div >
+                    <img src="icons/desktop.png">
+                </div>
+                <span>Desktop Developpment</span>
+                <p> I have acquired extensive knowledge and expertise in building interactive and user-friendly websites. From front-end technologies such as HTML, CSS, and JavaScript to back-end frameworks like Node.js , I am proficient in utilizing a wide range of tools and technologies to create dynamic web applications.</p>
             </div>
-            <div id="desktop">
-                <span></span>
-                <p></p>
+            <div>
+                <div>
+                    <img src="icons/tma.png">
+                </div>
+                <span>TMA</span>
+                <p> I have acquired extensive knowledge and expertise in building interactive and user-friendly websites. From front-end technologies such as HTML, CSS, and JavaScript to back-end frameworks like Node.js , I am proficient in utilizing a wide range of tools and technologies to create dynamic web applications.</p>
             </div>
-            <div id="devops">
-                <span></span>
-                <p></p>
-            </div>
-            <div id="tma">
-                <span></span>
-                <p></p>
+            <div>
+                <div>
+                    <img src="icons/database.png">
+                </div>
+                <span>Database Administration</span>
+                <p> I have acquired extensive knowledge and expertise in building interactive and user-friendly websites. From front-end technologies such as HTML, CSS, and JavaScript to back-end frameworks like Node.js , I am proficient in utilizing a wide range of tools and technologies to create dynamic web applications.</p>
             </div>
         </div>
     </div>

@@ -44,4 +44,16 @@
     .mobile-nav{
         display: flex;
     }
+
+    .service > div{
+        height: 150px;
+        overflow: hidden;
+        transition: height 0.5s;
+        box-sizing: border-box;
+    }
+
+    .service > div:hover{
+        height: auto;
+    }
+    
   }

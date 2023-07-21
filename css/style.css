@@ -246,47 +246,33 @@ body{
     flex-direction: column;
     margin: auto;
     width: 350px;
-    height: 400px;
+    height: auto;
     border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: whitesmoke;
 }
 
+.service > div > div:first-child{
+
+    text-align: center;
+    justify-content: space-around;
+
+    
+}
+
 .service > div > span{
-    display: flex;
-    font-size: 25px;
+    text-align: center;
+    justify-content: space-around;
     font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 30%;
-    border-bottom-left-radius:100px ;
-    border-bottom-right-radius:100px ;
-    color: whitesmoke;
-    
-    
+
 }
 
-#web > span{
-    
-    background: rgb(252,237,195);
-    background: linear-gradient(177deg, rgba(252,237,195,1) 0%, rgba(6,131,130,1) 100%);
-}
-
-#mobile{
-}
-
-#desktop{
-}
-
-#devops{
-}
-
-#tma{
-}
 .service > div > p{
 
     margin-left: 5px;
     text-align: center;
+    display: none;
+    transition: ease 0.5s display;
 }
+
