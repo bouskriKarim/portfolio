@@ -48,12 +48,11 @@
     .service > div{
         height: 150px;
         overflow: hidden;
-        transition: height 0.5s;
-        box-sizing: border-box;
+        transition: all 0.5s;
     }
 
     .service > div:hover{
-        height: auto;
+        height: 450px;
     }
     
   }

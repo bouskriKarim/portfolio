@@ -246,11 +246,17 @@ body{
     flex-direction: column;
     margin: auto;
     width: 350px;
-    height: auto;
+    height: 150px;
     border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: whitesmoke;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+
+.service > div:hover{
+    height: 450px;
 }
 
 .service > div > div:first-child{
@@ -272,7 +278,6 @@ body{
 
     margin-left: 5px;
     text-align: center;
-    display: none;
     transition: ease 0.5s display;
 }
 

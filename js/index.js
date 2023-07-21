@@ -1,4 +1,4 @@
-function showElement(id){
+/*function showElement(id){
     let element = document.getElementById(id);
     element.style.display = "block";
 }
@@ -6,4 +6,4 @@ function showElement(id){
 function hideElement(id){
     let element = document.getElementById(id);
     element.style.display = "none";
-}
+}*/
