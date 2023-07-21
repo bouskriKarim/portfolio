@@ -1,9 +1,13 @@
-/*function showElement(id){
-    let element = document.getElementById(id);
-    element.style.display = "block";
-}
+/*
+impodi
+libexpress
+emplois du temps 
+diagramme de class
+galaxy
+jeux
+gestion cv
+2eme année
 
-function hideElement(id){
-    let element = document.getElementById(id);
-    element.style.display = "none";
-}*/
+
+
+*/ 
